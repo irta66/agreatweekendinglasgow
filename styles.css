@@ -1,0 +1,86 @@
+ul li {
+    list-style-type: none; /* Remove bullets */
+    padding: 9px; /* Remove padding */
+    margin: 7px; /* Remove margins */
+    display: inline;
+    border-style: dashed;
+   background-color: rgba(11, 160, 78, 0.26) ;
+    border-color: rgb(5, 70, 13) ;
+    background-color: #b2f7a446;
+    color: rgb(31, 4, 4)
+  }
+   ul{text-align: center;}
+
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  p{color:rgba(12, 15, 12, 0.863);} 
+
+      h3{color: rgb(3, 71, 3);} 
+      h3 {text-align: left;}
+  
+  body {
+    background-color: rgb(232, 236, 232)
+  }
+
+  h1{font-display:inline ;}
+    
+
+  
+  
+  h2 {
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    color:rgb(7, 51, 29)
+  }
+   
+    p{
+       font-size: 20px;
+       font-family: arial, sans-serif;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 5 4px;
+    }
+    
+    
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+
+    
+    
+    
+    
+    
+    
